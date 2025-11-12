@@ -11,6 +11,10 @@ on:
     branches: [ main, master, develop ]
   pull_request:
     branches: [ main, master, develop ]
+
+permissions:
+    contents: write 
+    
 jobs:
   gradle:
     runs-on: ubuntu-latest
